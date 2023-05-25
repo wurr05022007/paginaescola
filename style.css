@@ -1,5 +1,42 @@
-header {
-    <img src="imagemcabeçalho.jpg">
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
     background-color: blue;
-    color:darkgrey
-    }
+    color:white;
+    font-size:25px;
+    display:flex;
+    justify-content: space-between;
+}
+.cabeçalho-lista{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.cabeçalho-lista-item{
+    display: inline;
+    justify-content: space-between;
+    padding:20px;
+}
+.cabeçalho{
+    background-color: rgb(69,45,178);
+    color:black;
+    display:flex;
+    padding: 24px;
+    justify-content: space-between;
+}
+cabeçalho-imagem{
+    width: 5%;
+    height: 5%;
+}
+.cabeçalho-imagem{
+    width: 15%;
+}
+.cabeçalho-item{
+    display: inline-block;
+    font-size:30px;
+    padding: 0 0 0 20px;
+}
+    
+
